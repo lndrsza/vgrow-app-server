@@ -6,7 +6,9 @@ class Role extends Model {
             name: DataTypes.STRING,
             admin: DataTypes.TINYINT,
         }, {
-            sequelize
+            sequelize,
+            freezeTableName: true,
+            
         })
     }
 }
