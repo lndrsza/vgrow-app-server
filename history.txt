@@ -1,0 +1,4 @@
+2022-07-27:
+- Inserida a funcionalidade do token;
+- Toda a rota que requrer autenticação por token (que deve ser enviado no header do POST) deve ter a função "auth" no caminho.
+- Inserida a geração de código HASH em senhas para serem salvas no banco de dados;

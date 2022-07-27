@@ -6,7 +6,7 @@ const auth = require('./middleware/checkToken')
 
 // Rotas Usuário
 routes.get('/users', UserController.selectAll)
-routes.post('/user', auth, UserController.insert)
+routes.post('/user', auth, UserController.insert) // Requer autenticação
 
 // Rotas Role
 routes.get('/roles', RoleController.selectAll)
