@@ -2,13 +2,13 @@
 
 module.exports = {
   async up (queryInterface, Sequelize) {
-    return queryInterface.addColumn('users', 'last_name',{
-      type: Sequelize.STRING,
+    return queryInterface.addColumn('users', 'active',{
+      type: Sequelize.TINYINT,
       allowNull: false
     });
   },
 
   async down (queryInterface, Sequelize) {
-    return queryInterface.removeColumn('users', 'last_name');
+    return queryInterface.removeColumn('users', 'active');
   }
 };
