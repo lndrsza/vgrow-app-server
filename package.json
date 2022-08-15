@@ -22,5 +22,16 @@
   "devDependencies": {
     "nodemon": "^2.0.19",
     "sequelize-cli": "^6.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lndrsza/vgrow-app-server.git"
+  },
+  "keywords": [
+    "admin"
+  ],
+  "bugs": {
+    "url": "https://github.com/lndrsza/vgrow-app-server/issues"
+  },
+  "homepage": "https://github.com/lndrsza/vgrow-app-server#readme"
 }
